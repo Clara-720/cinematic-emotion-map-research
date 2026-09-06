@@ -273,11 +273,11 @@ export const countries: CountryDatum[] = [
 type SignalStop = { value: number; color: readonly [number, number, number] };
 
 const signalStops: readonly SignalStop[] = [
-  { value: -1, color: [20, 37, 75] },
-  { value: -0.5, color: [37, 99, 235] },
-  { value: 0, color: [76, 141, 255] },
-  { value: 0.5, color: [125, 170, 255] },
-  { value: 1, color: [185, 211, 255] },
+  { value: -1, color: [39, 76, 224] },
+  { value: -0.5, color: [44, 179, 255] },
+  { value: 0, color: [91, 229, 206] },
+  { value: 0.5, color: [255, 188, 57] },
+  { value: 1, color: [255, 77, 43] },
 ];
 
 function hexChannel(value: number) {

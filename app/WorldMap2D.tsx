@@ -107,12 +107,14 @@ export function WorldMap2D({ selectedCode, hoveredCode, onSelect, onHover }: Pro
             <filter id="map-soft-glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="blur" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
             <filter id="map-line-glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.8" result="blur" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
             <filter id="world-aura-blur" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="8" /></filter>
-            <radialGradient id="map-ocean" cx="52%" cy="48%" r="62%"><stop offset="0" stopColor="#16366f" stopOpacity=".5" /><stop offset=".55" stopColor="#0a1934" stopOpacity=".34" /><stop offset="1" stopColor="#010915" stopOpacity="0" /></radialGradient>
+            <radialGradient id="map-ocean" cx="52%" cy="48%" r="62%"><stop offset="0" stopColor="#07305e" stopOpacity=".48" /><stop offset=".55" stopColor="#03182e" stopOpacity=".34" /><stop offset="1" stopColor="#010915" stopOpacity="0" /></radialGradient>
             <linearGradient id="world-land-gradient" gradientUnits="userSpaceOnUse" x1="40" y1="70" x2="1160" y2="490">
-              <stop offset="0" stopColor="#173878" />
-              <stop offset=".42" stopColor="#2563eb" />
-              <stop offset=".72" stopColor="#4c8dff" />
-              <stop offset="1" stopColor="#b9d3ff" />
+              <stop offset="0" stopColor="#1b66ff" />
+              <stop offset=".21" stopColor="#24dcff" />
+              <stop offset=".43" stopColor="#725eff" />
+              <stop offset=".62" stopColor="#f04ed9" />
+              <stop offset=".79" stopColor="#ff9d2e" />
+              <stop offset="1" stopColor="#ff462f" />
             </linearGradient>
             <pattern id="world-stars" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="5" cy="7" r=".65" fill="#dff8ff" opacity=".72" /><circle cx="18" cy="17" r=".42" fill="#89d5ff" opacity=".56" /></pattern>
           </defs>
