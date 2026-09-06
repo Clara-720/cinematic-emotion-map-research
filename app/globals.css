@@ -36,7 +36,6 @@ button:focus-visible, [role="button"]:focus-visible { outline: 3px solid var(--b
 .title-lockup h1 { position: relative; margin: 0; display: block; max-width: 1020px; color: var(--paper); font-family: Impact, "Arial Narrow", Arial, sans-serif; font-size: clamp(52px, 8.6vw, 132px); font-weight: 900; line-height: .76; letter-spacing: -.035em; text-transform: uppercase; }
 .title-lockup h1::after { content: ""; display: block; width: 34%; height: 5px; margin-top: 18px; background: var(--blue); }
 .title-word { display: inline; }
-.title-word + .title-word { margin-left: .18em; }
 .title-cinematic, .title-map { color: var(--paper); }
 .title-emotion { color: var(--blue); font-style: normal; }
 .title-lockup p { margin: 18px 0 0; color: var(--muted); font-family: Georgia, serif; font-size: 16px; font-style: italic; letter-spacing: .015em; }
